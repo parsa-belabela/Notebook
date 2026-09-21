@@ -1,0 +1,6 @@
+{
+  "name": "NexusNote",
+  "description": "Hyper-modern block-based note-taking app with knowledge graph, bi-directional linking, slash commands, and Gemini AI copilot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

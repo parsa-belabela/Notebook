@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Note Paper Shape -->
+    <path
+        android:pathData="M38,28h24l12,12v40c0,2.2 -1.8,4 -4,4h-32c-2.2,0 -4,-1.8 -4,-4v-48c0,-2.2 1.8,-4 4,-4z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:startX="38"
+                android:startY="28"
+                android:endX="74"
+                android:endY="84"
+                android:type="linear">
+                <item android:offset="0.0" android:color="#FF7C3AED" />
+                <item android:offset="1.0" android:color="#FF06B6D4" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <!-- Folded Corner -->
+    <path
+        android:fillColor="#FFC084FC"
+        android:pathData="M62,28v12h12z" />
+    <!-- Lines on Note -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M44,48h20v2.5h-20z M44,55h20v2.5h-20z M44,62h14v2.5h-14z" />
+    <!-- Connected Knowledge Node overlay -->
+    <path
+        android:fillColor="#FF06B6D4"
+        android:pathData="M34,40m-5,0a5,5 0 1,1 10,0a5,5 0 1,1 -10,0" />
+    <path
+        android:fillColor="#FFA855F7"
+        android:pathData="M76,68m-5,0a5,5 0 1,1 10,0a5,5 0 1,1 -10,0" />
+    <path
+        android:strokeColor="#FF06B6D4"
+        android:strokeWidth="2"
+        android:pathData="M34,40 L42,48" />
+    <path
+        android:strokeColor="#FFA855F7"
+        android:strokeWidth="2"
+        android:pathData="M68,64 L76,68" />
+</vector>
+
